@@ -1,0 +1,45 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "智慧教室"
+			}
+		},
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "智慧教室"
+			}
+		},
+		{
+			"path": "pages/index/register",
+			"style": {
+				"navigationBarTitleText": "智慧教室"
+			}
+		},
+		{
+			"path": "pages/index/person",
+			"style":{
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/ai",
+			"style":{
+				"navigationBarTitleText": "deepseek"
+			}
+		},
+		{
+			"path": "pages/index/ai-chat",
+			"style": {
+				"navigationBarTitleText": "ai对话"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

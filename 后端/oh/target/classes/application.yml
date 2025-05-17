@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: provider
+    #MQTT配置信息
+  mqtt:
+    #MQTT服务地址，端口号默认1883，如果有多个，用逗号隔开
+    url: tcp://127.0.0.1:1883
+    #用户名
+    username: admin
+    #密码
+    password: public
+    #客户端id(不能重复)
+    client:
+      id: emqx_fdcxfg
+    #MQTT默认的消息推送主题，实际可在调用接口是指定
+    default-topic: ohTopic
+
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=first_chat
+    username: lccccc
+    password: 123456
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8088
